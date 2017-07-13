@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1199px) {
+	
+
+	.container {
+		width: 800px;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	address {
+		font-size: 16px;
+	}
+	.header-img {
+		width: 800px;
+	}
+	hr.short {
+		width: 300px;
+	}
+	hr.long {
+		width: 350px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	.badge-img {
+	    width: 350px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.serving {
+		background-size: 325px 153px;
+		height: 153px;
+	    width: 325px;
+	}
+	.serving h2 {
+	    line-height: 30px;
+	    padding-top: 10px;
+	}
+	h2 span {
+	    font-size: 20px;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+
+
+	.container {
+		width: 480px;
+	}
+	h1 {
+	    padding-bottom: 5px;
+	}
+	address {
+	    font-size: 14px;
+	    padding-top: 0;
+	}
+	address span {
+	    display: none;
+	}
+	.header-img {
+		background-size: auto 350px;
+    	height: 350px;
+	    width: 480px;
+	}
+	.logo {
+	    max-width: 301px;
+	    padding-top: 30px;
+	}
+	.logo img {
+	    height: 300px;
+	}
+	.content-left {
+	    float: none;
+	    width: 100%;
+	}
+	hr.short {
+		width: 350px;
+	}
+	hr.long {
+		width: 400px;
+	}
+	.content-left {
+		border-right: 0;
+	}
+	.content-right {
+	    border-left: 0;
+	    float: none;
+	    margin-top: 20px;
+	    width: 100%;
+	}
+	.food-img {
+		margin: 10px 0;
+	}
+	footer address {
+	    font-size: 16px;
+	}
+	footer p {
+    	font-size: 12px;
+    }
+	.phone {
+	    font-size: 18px;
+	}
+	footer .uppercase {
+	    font-size: 16px;
+	}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+
+	.container {
+	    width: 320px;
+	}
+	.header-img {
+	    background-size: auto 250px;
+	    height: 250px;
+	    width: 320px;
+	}
+	address {
+		font-size: 12px;
+	}
+	.logo {
+	    max-width: 225px;
+	    padding-top: 14px;
+	}
+	.logo img {
+	    height: 225px;
+	}
+	hr.short {
+	    width: 200px;
+	}
+	hr.long {
+	    width: 250px;
+	}
+	.serving {
+	    background-size: 260px 122px;
+	    height: 122px;
+	    width: 260px;
+	}
+	.serving h2 {
+	    line-height: 20px;
+	}	
+	h2 span {
+	    font-size: 16px;
+	}
+	.badge-img {
+	    width: 250px;
+	}
+	.content-right p {
+	    padding: 0;
+	}
+	.food-img {
+		width: -webkit-calc(100% - 20px);
+		width: -moz-calc(100% - 20px);
+		width: calc(100% - 20px);
+	}
+	h3 {
+	    font-size: 14px;
+	}
+	footer address {
+	    font-size: 13px;
+	}
+	footer p {
+	    font-size: 10px;
+	    padding-bottom: 2px;
+	}
+	.phone {
+	    font-size: 16px;
+	}
+
+
+}
