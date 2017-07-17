@@ -1,15 +1,7 @@
-/*
-Theme Name: The Local Butcher
-Author: Shok Idea Group
-Author URI: http://shokme.com
-Description: Theme for The Local Butcher.
-Template: The Local Butcher
-Version: 1.0
-*/
 
 
 
-/* Theme customization starts here */
+/* Configured and Edited by Malachi Makin */
 
 
 
@@ -93,7 +85,7 @@ a, a:visited, a:hover {
 	display: inline-block;
 }
 .header-img {
-	background: url("../images/header-img.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+	background: url("../images/header-water1200.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	margin-bottom: 40px;
 	width: 1200px;
 	height: 542px;
@@ -136,21 +128,33 @@ a, a:visited, a:hover {
 .content-left > h3 {
     margin-bottom: 0;
 }
-.serving {
-	background: url("../images/badge.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
-	height: 185px;
-    margin: 0 auto;
-    width: 393px;
+.news {
+	
+    background: url('../images/badge.jpg') repeat-x scroll center center rgba(0, 0, 0, 10);
+    width: 565px;
+    height: 152px;
+    background-size: 565px 152px;
+       
+}
+	
+	
+	
 }
 
-.serving h2 {
-    line-height: 34px;
-    padding-top: 18px;
+.news img{
+	height: 150px;
 }
-.fav-menu {
+.display {
 	margin: 0 auto;
     max-width: 425px;
+    padding-top: 39px;
 }
+.display img{
+	height:auto;
+	width:130px;
+	display:inline-block;
+}
+
 .content-right {
 	box-sizing: border-box;
 	float: right;
@@ -189,6 +193,18 @@ hr.long {
 .uppercase {
 	text-transform: uppercase;
 }
+
+.contact-section{
+	border-top: 3px solid #c83933;
+}
+
+/* Pro-Fit Section */
+
+.pro-fit{
+	text-align:center;
+	border-bottom: 3px solid #2b6fb3;
+}
+
 
 /* ---------- INSTAGRAM ---------- */
 
@@ -251,3 +267,11 @@ footer .uppercase {
 .social-icons-last {
 	margin-right: 0;
 }
+.social a{
+	color:#c83933;
+}
+
+.social a:hover{
+	color:#404041;
+}
+

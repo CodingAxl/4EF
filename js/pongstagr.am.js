@@ -95,7 +95,7 @@
           options.dflt.timestamp !== false ?
             _thumbnail += '<strong>Posted on '+ options.data.timestamp +'</strong>' : null
             _thumbnail += '   <div class="'+ options.dflt.preload +'" id="'+ options.dflt.show + '-' + options.data.id +'-thmb-loadr" />'
-            _thumbnail += '   <a href="https://www.instagram.com/thelocalbutchernsb/" target="_blank">'
+            _thumbnail += '   <a href="https://www.instagram.com/4everfitnessfl/" target="_blank">'
             _thumbnail += '     <img id="'+ options.dflt.show + '-' + options.data.id +'-thmb" src="'+ options.data.thumbnail +'" alt="'+ options.data.caption +'">'
             _thumbnail += '   </a>'
 

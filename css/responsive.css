@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1199px) {
 	
 
@@ -28,19 +29,26 @@
 	h3 {
 		font-size: 18px;
 	}
-	.serving {
-		background-size: 325px 153px;
-		height: 153px;
-	    width: 325px;
+	.news {
+        background-size: 370px 153px;
+    height: 152px;
+    width: 370px;
 	}
-	.serving h2 {
+	.news h2 {
 	    line-height: 30px;
 	    padding-top: 10px;
 	}
 	h2 span {
 	    font-size: 20px;
 	}
-
+	.display{
+		padding-top:44px;
+	}
+.display img {
+    height: auto;
+    width: 107px;
+    display: inline-block;
+}
 
 }
 
@@ -75,6 +83,15 @@
 	.logo img {
 	    height: 300px;
 	}
+	
+		.news {
+        background-size: 442px 153px;
+    height: 152px;
+    width: 443px;
+		}
+		
+
+
 	.content-left {
 	    float: none;
 	    width: 100%;
@@ -143,12 +160,13 @@
 	hr.long {
 	    width: 250px;
 	}
-	.serving {
-	    background-size: 260px 122px;
-	    height: 122px;
-	    width: 260px;
+	.news {
+	        background-size: 290px 152px;
+	    height: 152px;
+	    width: 289px;
+	    
 	}
-	.serving h2 {
+	.news h2 {
 	    line-height: 20px;
 	}	
 	h2 span {
@@ -178,6 +196,13 @@
 	.phone {
 	    font-size: 16px;
 	}
-
+.display{
+	padding-top:53px;
+}
+.display img {
+    height: auto;
+    width: 85px;
+    display: inline-block;
+}
 
 }
