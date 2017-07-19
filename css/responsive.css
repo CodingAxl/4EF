@@ -13,7 +13,6 @@
 	}
 	.header-img {
 			background: url("../images/800542header.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
-	
 	    width: 800px;
 	    height:542px;
 	}
@@ -75,7 +74,7 @@
 	    display: none;
 	}
 	.header-img {
-			background: url("../images/480350header.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/480350headerv2.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 		background-size: auto 350px;
     	height: 350px;
 	    width: 480px;
