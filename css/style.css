@@ -70,11 +70,17 @@ a, a:visited, a:hover {
 .header-block {
 	background: #6a6b6d;
 	color: #fff;
-	border-bottom: 3px solid black;
-	width: 100%;
+	border-bottom: 5px solid black;
+	 height: 29px;
+	    width: 1200px;
+	    position:fixed;
+	    top:0;
+	    z-index:9999;
+
 }
 .top-bar {
 	text-align: center;
+	margin-top: -10px;
 }
 .title {
 	display: inline-block;
@@ -85,10 +91,11 @@ a, a:visited, a:hover {
 	display: inline-block;
 }
 .header-img {
-	background: url("../images/1200542headerv2.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+	background: url("../images/1200487final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	border-bottom: black 3px solid;
 	width:1200px;
-	height: 542px;
+	height: 487px;
+	margin-top: 34px;
 }
 .logo {
 	margin: 0 auto;
@@ -122,19 +129,24 @@ a, a:visited, a:hover {
 	box-sizing: border-box;
 	border-right: 3px solid #c83933;
 	float: left;
-	padding: 0 20px;
+	padding: 0 10px;
 	text-align: center;
 	width: 50%
 }
 .content-left > h3 {
     margin-bottom: 0;
 }
+.slash-style{
+	font-size:39px;
+	color:black;
+	
+}
 .news {
 	
     background: url('../images/badge.jpg') repeat-x scroll center center rgba(0, 0, 0, 10);
     width: 565px;
-    height: 152px;
-    background-size: 565px 152px;
+    height: 93px;
+    background-size: 565px 93px;
        
 }
 	
@@ -142,36 +154,28 @@ a, a:visited, a:hover {
 	
 }
 
-.news img{
-	height: 150px;
-}
+
 .display {
 	margin: 0 auto;
-    max-width: 425px;
-    padding-top: 39px;
+
 }
 .display img{
-	height:auto;
-	width:130px;
+    height: 45px;
+    width: 165px;
 	display:inline-block;
 }
 
 .content-right {
 	box-sizing: border-box;
 	float: right;
-	padding: 0 20px;
+	padding: 0 10px;
 	text-align: center;
 	width: 50%
 }
 .content-right p {
 	padding: 0 20px;
 }
-.food-img {
-	width: -webkit-calc(100% - 40px);
-	width: -moz-calc(100% - 40px);
-	width: calc(100% - 40px);
-	margin: 40px 0;
-}
+
 hr.short {
 	background: #bfc0c1;
 	border: 0;
@@ -188,86 +192,56 @@ hr.long {
 	font-weight: 100;
 	font-size: 20px;
 }
-.badge-img {
-	margin: 20px 0;
-}
+
 .uppercase {
 	text-transform: uppercase;
 }
 
+p{
+		text-transform: uppercase;
+}
+
 .contact-section{
-	border-top: 3px solid black;
-	margin-top:110px;
+	display: flex;
+    background-color: #404042;
+    border-radius: 35px;
+    width:90%;
+    margin:0 auto;
 }
 
 .contact-section a{
-flex:1;
-color:black;
-    padding-top: 7px;
+	color:#c83933;
+	padding:2px;
+	flex:1;
+	    border-radius: 35px;
+}
+
+.contact-section a:hover{
+	background-color:#c83b34;
+	color:#686c6d;
 }
 .contact-section p{
 
 	width:100%;
 	display:flex;
-	height:30px;
 }
-.call-btn{
-	background-color:#8d8b88;
-	opacity:.8;
-}
-.call-btn:hover{
-	opacity:1;
-}
-.email-btn{
-	background-color:#8d8b88;
-	opacity:.8;
-}
-.email-btn:hover{
-	opacity:1;
-}
+
 
 .coming-soon{
 	
 }
 
 .coming-soon img{
-	width:100%;
-	height:175px;
+	width:35%;
+	height:85px;
 }
 /* Pro-Fit Section */
 
 .pro-fit{
 	text-align:center;
-	border-bottom: 3px solid black;
 }
 
 
-/* ---------- INSTAGRAM ---------- */
-
-.pongstagrm .scaling {
-    border: medium none;
-    /*float: left;
-    height: 110px;
-    width: 100px;*/
-}
-.thumbnail {
-	box-shadow: none;
-	max-width: 350px;
-	margin: 0 auto;
-}
-.thumbnail > span:not(i), .thumbnail > strong {
-    color: #404041 !important;
-    font-size: 12px;
-    font-weight: normal;
-}
-.row button {
-    display: none;
-}
-.insta-head {
-	font-size: 20px;
-    margin-bottom: 0;
-    margin-top: 30px;
-}
 
 
 /* ---------- FOOTER ---------- */
@@ -276,26 +250,28 @@ footer {
 	background: #6a6b6d;
 	color: #fff;
 	text-align: center;
+	width:100%;
+	height: 85px;
+	border-top:5px solid black;
 }
 footer address {
 	font-size: 18px;
-	padding: 30px 0 0 0;
+	padding: 18px 0 0 0;
 }
 footer p {
 	font-size: 14px;
 	margin: 0;
 }
-.phone {
-	display: block;
-	font-size: 20px;
-	margin-bottom: 20px;
-}
+
 footer .uppercase {
 	font-size: 18px;
 }
 .social {
-	margin-top: 10px;
-	padding-bottom: 20px;
+display: flex;
+    background-color: #404042;
+    border-radius: 35px;
+        width:90%;
+    margin:0 auto;
 }
 .social h4{
 	font-weight:600px;
@@ -309,10 +285,13 @@ footer .uppercase {
 }
 .social a{
 	color:#c83933;
-	padding:20px;
+	padding:2px;
+	flex:1;
+	    border-radius: 35px;
 }
 
 .social a:hover{
-	color:#404041;
+	background-color:#c83b34;
+	color:#686c6d;
 }
 

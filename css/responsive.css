@@ -12,9 +12,10 @@
 		font-size: 16px;
 	}
 	.header-img {
-			background: url("../images/800542header.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/800487final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    width: 800px;
-	    height:542px;
+	    height:487px;
+	    margin-top:28px;
 	}
 	hr.short {
 		width: 300px;
@@ -43,22 +44,25 @@
 	h2 span {
 	    font-size: 20px;
 	}
-	.display{
-		padding-top:44px;
-	}
+
 .display img {
     height: auto;
-    width: 107px;
+    width: 115px;
     display: inline-block;
 }
-
+.header-block{
+    height: 23px;
+    width: 800px;
+    position: fixed;
+    top: 0;
+    z-index:9999;
+}
 }
 
 
 
 
 @media only screen and (max-width: 799px) {
-
 
 	.container {
 		width: 480px;
@@ -67,17 +71,21 @@
 	    padding-bottom: 5px;
 	}
 	address {
-	    font-size: 14px;
+	    font-size: 10px;
 	    padding-top: 0;
+	}
+	.title h1{
+		font-size:11px;
 	}
 	address span {
 	    display: none;
 	}
 	.header-img {
-			background: url("../images/480350headerv2.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/480350final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 		background-size: auto 350px;
     	height: 350px;
 	    width: 480px;
+	    margin-top:28px;
 	}
 	.logo {
 	    max-width: 301px;
@@ -129,8 +137,13 @@
 	footer .uppercase {
 	    font-size: 16px;
 	}
-
-
+	.header-block{
+    height: 23px;
+    width: 480px;
+    position: fixed;
+    top: 0;
+    z-index:9999;
+}
 }
 
 
@@ -148,7 +161,8 @@
 	    width: 320px;
 	}
 	address {
-		font-size: 12px;
+		font-size: 9px;
+		    margin-top: 19px; 
 	}
 	.logo {
 	    max-width: 225px;
@@ -175,37 +189,44 @@
 	h2 span {
 	    font-size: 16px;
 	}
-	.badge-img {
-	    width: 250px;
-	}
 	.content-right p {
 	    padding: 0;
-	}
-	.food-img {
-		width: -webkit-calc(100% - 20px);
-		width: -moz-calc(100% - 20px);
-		width: calc(100% - 20px);
 	}
 	h3 {
 	    font-size: 14px;
 	}
 	footer address {
-	    font-size: 13px;
+	    font-size: 10px;
+	    margin:0;
 	}
 	footer p {
 	    font-size: 10px;
 	    padding-bottom: 2px;
 	}
-	.phone {
-	    font-size: 16px;
-	}
-.display{
-	padding-top:53px;
-}
+
 .display img {
     height: auto;
-    width: 85px;
+    width: 95px;
     display: inline-block;
 }
 
+.content-left h2{
+	font-size:23px;
+}
+
+.slash-style{
+	font-size:28px;
+	color:black;
+	
+}
+.header-block{
+    height: 23px;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    z-index:9999;
+}
+.title h1{
+	display:none;
+}
 }
