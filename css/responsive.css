@@ -12,9 +12,9 @@
 		font-size: 16px;
 	}
 	.header-img {
-			background: url("../images/800487final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/800380.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    width: 800px;
-	    height:487px;
+	    height:380px;
 	    margin-top:28px;
 	}
 	hr.short {
@@ -81,11 +81,11 @@
 	    display: none;
 	}
 	.header-img {
-			background: url("../images/480350final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
-		background-size: auto 350px;
-    	height: 350px;
+			background: url("../images/480300.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+		background-size: auto 300px;
+    	height: 300px;
 	    width: 480px;
-	    margin-top:28px;
+
 	}
 	.logo {
 	    max-width: 301px;
@@ -156,6 +156,7 @@
 	    width: 320px;
 	}
 	.header-img {
+		background: url("../images/320250.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    background-size: auto 250px;
 	    height: 250px;
 	    width: 320px;

@@ -91,10 +91,10 @@ a, a:visited, a:hover {
 	display: inline-block;
 }
 .header-img {
-	background: url("../images/1200487final.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
-	border-bottom: black 3px solid;
+	background: url("../images/1200380.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+	border-bottom: black 5px solid;
 	width:1200px;
-	height: 487px;
+	height: 380px;
 	margin-top: 34px;
 }
 .logo {
