@@ -57,6 +57,18 @@
     top: 0;
     z-index:9999;
 }
+#life{
+	    padding-bottom: 8px;
+    height: 30px;
+}
+#hammer{
+	height:45px;
+}
+
+#startrac{
+	height: 36px;
+}
+
 }
 
 
@@ -156,8 +168,8 @@
 	    width: 320px;
 	}
 	.header-img {
-		background: url("../images/320250test.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
-	    background-size: auto 250px;
+		background: url("../images/480300test.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+	    background-size: 320px 250px;
 	    height: 250px;
 	    width: 320px;
 	}
@@ -232,5 +244,16 @@
 }
 .hours{
 	font-size:18px;
+}
+#life{
+	    padding-bottom: 8px;
+    height: 25px;
+}
+#hammer{
+	height:45px;
+}
+
+#startrac{
+	height: 30px;
 }
 }

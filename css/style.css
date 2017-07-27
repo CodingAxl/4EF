@@ -8,6 +8,16 @@
 /* ---------- MAIN ---------- */
 
 
+#life{
+	padding-bottom:5px;
+}
+#hammer{
+	height:60px;
+}
+
+#startrac{
+	padding-bottom:3px;
+}
 body {
 	background:  #eeeeee;
 	color: #404041;
