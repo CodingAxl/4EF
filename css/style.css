@@ -107,15 +107,7 @@ a, a:visited, a:hover {
 	height:300px;
 	width:auto;
 }
-.bullet {
-	background: #fff;
-	border-radius: 50%;
-	display: inline-block;
-	float: left;
-	height: 10px;
-	margin: 15px 0;
-	width: 10px;
-}
+
 
 
 /* ---------- CONTENT ---------- */
@@ -141,14 +133,7 @@ a, a:visited, a:hover {
 	color:black;
 	
 }
-.news {
-	
-    background: url('../images/badge.jpg') repeat-x scroll center center rgba(0, 0, 0, 10);
-    width: 565px;
-    height: 93px;
-    background-size: 565px 93px;
-       
-}
+
 	
 	
 	
@@ -227,10 +212,6 @@ p{
 }
 
 
-.coming-soon{
-	
-}
-
 .coming-soon img{
 	width:35%;
 	height:85px;
@@ -256,7 +237,7 @@ footer {
 }
 footer address {
 	font-size: 18px;
-	padding: 18px 0 0 0;
+	padding: 8px 0 0 0;
 }
 footer p {
 	font-size: 14px;

@@ -81,7 +81,7 @@
 	    display: none;
 	}
 	.header-img {
-			background: url("../images/480300.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/480300test.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 		background-size: auto 300px;
     	height: 300px;
 	    width: 480px;
@@ -156,7 +156,7 @@
 	    width: 320px;
 	}
 	.header-img {
-		background: url("../images/320250.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+		background: url("../images/320250test.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    background-size: auto 250px;
 	    height: 250px;
 	    width: 320px;
@@ -229,5 +229,8 @@
 }
 .title h1{
 	display:none;
+}
+.hours{
+	font-size:18px;
 }
 }
