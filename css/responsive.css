@@ -48,7 +48,7 @@
     width: 115px;
     display: inline-block;
 }
-.header-block{
+.header-top{
     height: 23px;
     width: 800px;
     position: fixed;
@@ -147,7 +147,7 @@
 	footer .uppercase {
 	    font-size: 16px;
 	}
-	.header-block{
+	.header-top{
     height: 23px;
     width: 480px;
     position: fixed;
@@ -230,7 +230,7 @@
 	color:black;
 	
 }
-.header-block{
+.header-top{
     height: 23px;
     width: 320px;
     position: fixed;
