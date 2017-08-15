@@ -171,13 +171,13 @@ a, a:visited, a:hover {
 	padding: 0 20px;
 }
 
-hr.short {
+hr.smallline {
 	background: #bfc0c1;
 	border: 0;
 	height: 2px;
 	width: 350px;
 }
-hr.long {
+hr.longline {
 	background: #bfc0c1;
 	border: 0;
 	height: 2px;
