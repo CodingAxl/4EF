@@ -17,10 +17,10 @@
 	    height:380px;
 	    margin-top:28px;
 	}
-	hr.short {
+	hr.shortline {
 		width: 300px;
 	}
-	hr.long {
+	hr.longline {
 		width: 350px;
 	}
 	h2 {
@@ -117,10 +117,10 @@
 	    float: none;
 	    width: 100%;
 	}
-	hr.short {
+	hr.shortline {
 		width: 350px;
 	}
-	hr.long {
+	hr.longline {
 		width: 400px;
 	}
 	.content-left {
@@ -182,10 +182,10 @@
 	.logo img {
 	    height: 225px;
 	}
-	hr.short {
+	hr.shortline {
 	    width: 200px;
 	}
-	hr.long {
+	hr.longline {
 	    width: 250px;
 	}
 	.news {
