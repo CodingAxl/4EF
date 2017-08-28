@@ -12,7 +12,7 @@
 		font-size: 16px;
 	}
 	.header-img {
-			background: url("../images/newheader4ef.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/4EF_HEADER_800x380.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    width: 800px;
 	    height:380px;
 	    margin-top:28px;
@@ -96,7 +96,7 @@
 	    display: none;
 	}
 	.header-img {
-			background: url("../images/newheader4ef.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+			background: url("../images/4EF_HEADER_480x300.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 		background-size: 480px 300px;
     	height: 300px;
 	    width: 480px;
@@ -171,7 +171,7 @@
 	    width: 320px;
 	}
 	.header-img {
-		background: url("../images/newheader4ef.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
+		background: url("../images/4EF_HEADER_320x250.jpg") repeat-x scroll center center rgba(0, 0, 0, 0);
 	    background-size: 320px 250px;
 	    height: 250px;
 	    width: 320px;
